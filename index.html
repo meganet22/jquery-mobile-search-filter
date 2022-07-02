@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+</head>
+<body>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <a href="#panel1" class="ui-btn ui-btn-inline ui-btn-icon-right ui-icon-bars">Menü</a>
+    <div class="panel1" data-position="right" data-role="panel">
+        <h1>Menü</h1>
+        <ul data-role="listview">
+            <li><a href="#" class="ui-icon-home">Anasayfa</a></li>
+            <li><a href="#" class="ui-icon-comment">Hakkımızda</a></li>
+            <li><a href="#" class="ui-icon-grid">Projeler</a></li>
+            <li><a href="#" class="ui-icon-mail">İletişim</a></li>
+        </ul>
+    </div>
+
+    <div data-role="controlgroup" data-type="horizontal">
+        <a href="#" class="ui-btn ui-btn-inline ui-btn-icon-bottom ui-icon-mail">Mesajlar</a>
+        <a href="#" class="ui-btn ui-btn-inline ui-btn-icon-bottom ui-icon-comment">Yorumlar</a>
+        <a href="#" class="ui-btn ui-btn-inline ui-btn-icon-bottom ui-icon-gear">Ayarlar</a>
+    </div>
+    
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+            <li><a href="#" data-icon="home">Anasayfa</a></li>
+            <li><a href="#" data-icon="comment">Hakkımızda</a></li>
+            <li><a href="#" data-icon="grid">Projeler</a></li>
+            <li><a href="#" data-icon="mail">İletişim</a></li>
+            <li><a href="#" data-icon="gear">Ayarlar</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Şehir ara..">
+        <li><a href="#">Ankara</a></li>
+        <li><a href="#">İstanbul</a></li>
+        <li><a href="#">İzmir</a></li>
+        <li><a href="#">Eskişehir</a></li>
+    </ul>
+
+    
+</body>
+</html>
